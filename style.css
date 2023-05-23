@@ -1,0 +1,91 @@
+.intro-text{
+    color: rgb(5, 5, 5);
+    font weight-400;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+
+}
+.a{
+    width: 400px,
+    height: 300px
+  }
+.image{
+    height:100vh;
+    font-family: 'Lato', sans-serif;
+    
+    background-image: url('https://wallpapercave.com/wp/WOiIJSG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+
+.blackBox{
+    background-color: white;
+    font-size :80px;
+    font-weight:400;
+    background-image: radial-gradient(rgb(197, 200, 132),rgb(132, 105, 51));
+    color:#000;
+}
+
+.aboutme{
+    background-color: rgb(39, 172, 44);
+    border-radius: 10px;
+    margin: auto;
+    color: rgb(47, 27, 27);    
+}
+.contactme{
+  background-color: rgb(206, 142, 22);
+  border-radius: 10px;
+  margin: auto;
+  color: rgb(47, 27, 27);
+
+}
+
+.card-contact{
+    background-color: red;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    
+  }
+  .card-body{
+    padding: 20px;
+  }
+  .card-body h5 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  
+  .card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    max-width:340px;
+    height:400px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .card-content p {
+    margin: 10px 0;
+    font-size: 14px;
+  }
